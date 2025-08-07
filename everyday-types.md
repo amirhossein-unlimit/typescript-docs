@@ -157,3 +157,22 @@ function printName(obj: { first: string; last?: string }) {
 {% hint style="success" %}
 <p align="right">برای استفاده ایمن‌تر از پارامتر های اختیاری باید آن ها را بررسی کنیم که <code>undefined</code> نباشند.</p>
 {% endhint %}
+
+## Union Type
+
+<p align="right">به ما این امکان را میدهد که یک ورودی یا متغیر را به گونه ای تعریف کنیم که شامل دو یا چند نوع باشد. وقتی یک متغیر از نوع <code>union</code> تعریف می شود، فقط میتوان عملیات هایی روی آن انجام داد که برای هر دو نوع تعریف شده، قابل انجام باشد.</p>
+
+<p align="right">در مثال پایین ورودی <code>id</code> میتواند رشته ای یا عددی باشد.از متد هایی میتوان استفاده کرد که هم برای نوع <code>number</code> و هم <code>string</code> در دسترس باشند.</p>
+
+<p align="right">برای اینکه بتوانیم از متد های مخصوص به هر کدام استفاده کنیم و از تایپ اسکریپت هم خطا دریافت نکنیم، باید استفاده از آنها را مشروط به نوع آن کنیم. به این کار <code>Type Narrowing</code> گفته می شود. در این مثال متد های مربوط به رشته در شرط <code>id === "string"</code> و متد های مربوط به اعداد در <code>else</code> در دسترس خواهند بود.</p>
+
+```typescript
+function printId(id: number | string) {
+  if (typeof id === "string") {
+    console.log(id.toUpperCase());
+  } else {
+    console.log(id);
+  }
+}
+
+```
