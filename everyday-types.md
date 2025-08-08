@@ -28,6 +28,17 @@ let names: Array<string> = ["Ali", "Reza"];
 
 <p align="right">هرگز پیشنهاد نمی‌شود از این نوع استفاده کنید زیرا هر نوع داده‌ای را مجاز می‌کند و عملاً حضور TypeScript را بی‌تأثیر می‌کند. این نوع زمانی استفاده می‌شود که TypeScript نوع داده‌ای را تشخیص نمی‌دهد یا نوع داده مدنظر نامشخص است.</p>
 
+```typescript
+const chartConfig: any = {
+  title: "Sales Chart",
+  data: [10, 20, 30],
+  colors: ["red", "green", "blue"],
+  animation: true
+};
+
+oldChartLibrary(chartConfig);
+```
+
 ### Type Annotations
 
 <p align="right">زمانی که از <code>var</code>، <code>const</code> یا <code>let</code> برای تعریف متغیر استفاده می‌کنیم، می‌توانیم یک توضیح نوع به آن اضافه کنیم تا نوع متغیر به صورت کاملاً صریح مشخص شود و خوانایی کد بالاتر برود.</p>
