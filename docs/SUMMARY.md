@@ -1,3 +1,3 @@
-* [Overview](README.md)
-* [Basics](docs/basics.md)
-* [Everyday Types](docs/everyday-types.md)
+* [Overview](../README.md)
+* [Basics](basics.md)
+* [Everyday Types](everyday-types.md)
