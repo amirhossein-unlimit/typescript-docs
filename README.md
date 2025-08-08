@@ -1,4 +1,4 @@
-# آشنایی با TypeScript
+# Overview
 
 <h3 align="right">TypeScript چیست؟</h3>
 
@@ -6,7 +6,7 @@
 
 ***
 
-### چرا باید از TypeScript استفاده کنیم؟
+<h3 align="right">چرا باید از TypeScript استفاده کنیم؟</h3>
 
 * **تشخیص خطاها قبل از اجرا**: شناسایی بسیاری از خطاها در زمان کامپایل.
 * **مقیاس‌پذیری بالا**: مناسب برای پروژه‌های کوچک و بزرگ.
@@ -15,7 +15,7 @@
 
 ***
 
-### شروع یادگیری TypeScript
+<h3 align="right">شروع یادگیری TypeScript</h3>
 
 <p align="right">این مستندات نسخه <strong>فارسی‌سازی شده و بومی‌شده</strong> از <a href="https://www.typescriptlang.org/docs/">مستندات رسمی TypeScript</a> هستند که با دقت ترجمه و ویرایش شده‌اند تا برای برنامه‌نویسان فارسی‌زبان قابل استفاده و روان باشند.<br>در این راهنما، مباحث تایپ‌اسکریپت را گام‌به‌گام بررسی می‌کنیم:</p>
 
@@ -25,6 +25,6 @@
 * **Decorators**
 * **Type Narrowing** و دیگر ویژگی‌های پیشرفته که بسیار کاربردی هستند.
 
-### شروع سریع با TypeScript Playground
+<h3 align="right">شروع سریع با TypeScript Playground</h3>
 
 <p align="right">برای آزمایش و یادگیری سریع تایپ‌اسکریپت، می‌توانید از <a href="https://www.typescriptlang.org/play"><strong>TypeScript Playground</strong></a> استفاده کنید.<br>Playground یک محیط آنلاین است که به شما امکان می‌دهد بدون نصب هیچ نرم‌افزاری، کدهای TypeScript را نوشته، اجرا و بلافاصله نتیجه را مشاهده کنید.</p>
