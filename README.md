@@ -24,3 +24,7 @@
 * **Generics**
 * **Decorators**
 * **Type Narrowing** و دیگر ویژگی‌های پیشرفته که بسیار کاربردی هستند.
+
+### شروع سریع با TypeScript Playground
+
+<p align="right">برای آزمایش و یادگیری سریع تایپ‌اسکریپت، می‌توانید از <a href="https://www.typescriptlang.org/play"><strong>TypeScript Playground</strong></a> استفاده کنید.<br>Playground یک محیط آنلاین است که به شما امکان می‌دهد بدون نصب هیچ نرم‌افزاری، کدهای TypeScript را نوشته، اجرا و بلافاصله نتیجه را مشاهده کنید.</p>
