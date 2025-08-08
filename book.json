@@ -2,7 +2,7 @@
   "plugins": ["-sharing", "github"],
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/username/repository"
+      "url": "https://github.com/amirhossein-unlimit/typescript-docs"
     }
   }
 }
