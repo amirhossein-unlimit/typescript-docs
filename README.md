@@ -19,11 +19,11 @@
 
 <p align="right">این مستندات نسخه <strong>فارسی‌سازی شده و بومی‌شده</strong> از <a href="https://www.typescriptlang.org/docs/">مستندات رسمی TypeScript</a> هستند که با دقت ترجمه و ویرایش شده‌اند تا برای برنامه‌نویسان فارسی‌زبان قابل استفاده و روان باشند.<br>در این راهنما، مباحث تایپ‌اسکریپت را گام‌به‌گام بررسی می‌کنیم:</p>
 
-* **انواع داده‌ها (Types)**
-* **اینترفیس‌ها (Interfaces)**
-* **Generics**
-* **Decorators**
-* **Type Narrowing** و دیگر ویژگی‌های پیشرفته که بسیار کاربردی هستند.
+* <p align="right">انواع داده ها (Types)</p>
+* <p align="right">اینترفیس ها (interfaces)</p>
+* <p align="right">Generics</p>
+* <p align="right">Decorators</p>
+* <p align="right">Type Narrowing و دیگر ویژگی های پیشرفته که کاربردی هستند</p>
 
 <h3 align="right">شروع سریع با TypeScript Playground</h3>
 
