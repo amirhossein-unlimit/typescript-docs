@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Overview](README.md)
+* [آشنایی با TypeScript](README.md)
 * [Basics](basics.md)
 * [Everyday Types](everyday-types.md)

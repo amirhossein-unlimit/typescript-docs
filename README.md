@@ -1,6 +1,4 @@
-# Overview
-
-## آشنایی با TypeScript
+# آشنایی با TypeScript
 
 <h3 align="right">TypeScript چیست؟</h3>
 
