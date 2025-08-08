@@ -2,11 +2,11 @@
 
 <p align="right">در این بخش از مستندات، به انواع داده‌های پرکاربرد در TypeScript می‌پردازیم.</p>
 
-### The Primitives
+## The Primitives
 
 <p align="right">سه تایپ <code>string</code>، <code>number</code> و <code>boolean</code> از همه متداول‌تر هستند و در TypeScript و JavaScript یکسان هستند.</p>
 
-### Array
+## Array
 
 <p align="right">برای تعریف آرایه‌ای از هر نوع مقدار استفاده می‌شود. انواع روش‌های تعریف تایپ از نوع آرایه:</p>
 
@@ -24,7 +24,7 @@ let numbers: Array<number> = [1, 2, 3];
 let names: Array<string> = ["Ali", "Reza"];
 ```
 
-### Any
+## Any
 
 <p align="right">هرگز پیشنهاد نمی‌شود از این نوع استفاده کنید زیرا هر نوع داده‌ای را مجاز می‌کند و عملاً حضور TypeScript را بی‌تأثیر می‌کند. این نوع زمانی استفاده می‌شود که TypeScript نوع داده‌ای را تشخیص نمی‌دهد یا نوع داده مدنظر نامشخص است.</p>
 
@@ -39,7 +39,7 @@ const chartConfig: any = {
 oldChartLibrary(chartConfig);
 ```
 
-### Type Annotations
+## Type Annotations
 
 <p align="right">زمانی که از <code>var</code>، <code>const</code> یا <code>let</code> برای تعریف متغیر استفاده می‌کنیم، می‌توانیم یک توضیح نوع به آن اضافه کنیم تا نوع متغیر به صورت کاملاً صریح مشخص شود و خوانایی کد بالاتر برود.</p>
 
@@ -64,7 +64,7 @@ let value: undefined = undefined;
 <p align="right">زمانی که متغیر را مقداردهی می‌کنیم، نوع آن به صورت کاملاً صریح برای TypeScript مشخص است. بنابراین در این مواقع نیازی به نوشتن توضیح نوع نیست و انجام این کار باعث طولانی‌تر شدن کد می‌شود.</p>
 {% endhint %}
 
-### Function
+## Function
 
 <p align="right">در TypeScript می‌توانیم نوع پارامترهای ورودی تابع را مشخص کنیم. همچنین می‌توان نوع خروجی تابع را هم مشخص کرد.</p>
 
@@ -74,7 +74,7 @@ function greetUser(name: string): string {
 }
 ```
 
-#### Functions Which Return Promises
+### Functions Which Return Promises
 
 <p align="right">مشخص کردن نوع توابعی که خروجی آن‌ها به صورت یک Promise است:</p>
 
@@ -93,7 +93,7 @@ function fetchData(data: string): Promise<string> {
 }
 ```
 
-#### Anonymous Function
+### Anonymous Function
 
 <p align="right">TypeScript می‌تواند نوع ورودی‌های تابع ناشناس را بسته به موقعیت مورد استفاده تشخیص دهد.</p>
 
@@ -115,7 +115,7 @@ names.forEach((name) => {
 });
 ```
 
-### Object Types
+## Object Types
 
 <p align="right">برای تعریف نوع یک Object در برنامه باید از کلمه <code>interface</code> استفاده کنیم. می‌توانیم پراپرتی‌ها را با <code>,</code> یا <code>;</code> از یکدیگر جدا کنیم.</p>
 
@@ -144,7 +144,7 @@ function printCoord(pt: Pt) {
 printCoord({ x: 3, y: 7 });
 ```
 
-#### Optional Property
+### Optional Property
 
 <p align="right">برای ایجاد یک پراپرتی اختیاری، باید بعد از نام پراپرتی و قبل از <code>:</code>، علامت <code>?</code> را قرار دهیم:</p>
 
