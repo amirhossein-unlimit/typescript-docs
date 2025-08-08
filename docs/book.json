@@ -1,7 +1,0 @@
-{
-  "structure": {
-    "readme": "README.md",
-    "summary": "INTERNAL_SUMMARY.md"
-  },
-  "plugins": ["-summary"]
-}
