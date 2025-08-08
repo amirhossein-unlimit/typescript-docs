@@ -1,0 +1,8 @@
+{
+  "plugins": ["-sharing", "github"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/username/repository"
+    }
+  }
+}
